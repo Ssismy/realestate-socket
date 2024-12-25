@@ -38,4 +38,4 @@ io.on("connection", (socket) => {
   });
 });
 
-io.listen("https://full-stack-estate-socket.onrender.com");
+io.listen();
