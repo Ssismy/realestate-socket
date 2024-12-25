@@ -5,7 +5,7 @@ const io = new Server({
     origin: "https://full-stack-estate-client.onrender.com",
   },
 });
-var port = normalizePort(process.env.PORT || '4000');
+var port =process.env.PORT || '4000';
 
 let onlineUser = [];
 
